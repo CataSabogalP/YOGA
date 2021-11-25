@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quienes somos</title>
+<!--link al css-->
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css" />
 </head>
+
 <body>
-    <header>
-        <nav>
-        <h1>
-            <strong>Free Soul House</strong>
-        </h1>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./PÁGINAS/Quienes-somos.html">Quienes somos</a></li>
-            <li><a href="./PÁGINAS/Retiros-y-eventos.html">Retiros y eventos</a></li>
-            <li><a href="./PÁGINAS/Gastronomía-y-acomodación.html">Oferta Gastrónomica y Acomodación</a></li>
-            <li><a href="./PÁGINAS/contacto.html">Contacto</a></li>
-        </ul>
+<!--header-->
+<header>
+    <!--menu-->
+    <nav>
+            <h1 id="textoprincipal">
+            FREE SOUL HOUSE
+            </h1>
+            <ul>
+            <li><a class="listanavegación" href="../index.html">Home</a></li>
+            <li>
+                <a class="listanavegación" href="./Quienes-somos.html">Quienes somos</a>
+            </li>
+            <li>
+                <a class="listanavegación" href="./Retiros-y-eventos.html">Retiros y eventos</a>
+            </li>
+            <li>
+                <a class="listanavegación" href="./Gastronomía-y-acomodación.html">Oferta Gastrónomica y Acomodación</a>
+            </li>
+            <li>
+                <a class="listanavegación" href="./contacto.html">Contacto</a>
+            </li>
+            </ul>
     </nav>
-    </header>
+</header>
     <main>
-        <div>
-            <!--mi bloque donde va la galería de imágenes-->
-        </div>
-        <div>
-        <h2>
-            <strong>¿Quienes Somos?</strong>
-            </h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, placeat aliquid. Optio quidem sint tempora necessitatibus inventore. Nemo veritatis quidem accusantium, dignissimos cum libero impedit quo eveniet, eligendi nihil expedita?
-        </p>
-        <!--Galería de imágenes-->
-    </div>
-    <div>
-        <h2>
-        <strong>Equipo</strong>
-    </h2>
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod quaerat deleniti enim distinctio maxime voluptas asperiores sequi, quasi iure vero obcaecati eius corrupti accusantium beatae ratione, alias omnis nesciunt. Architecto.
-    </p>
-    <ul>
-        <li>Personal de cocina</li>
-        <li>Personal de limpieza</li>
-        <li>Instructores de yoga y terapistas en diversas ramas</li>
-        <li>Personal de limpieza y mantenimiento general</li>
-    </ul>
-    <!--Galería de imágenes-->
-    </div>
+        <section class="forma_galeria_fija">
+        <!--mi bloque fijo donde va la galería de imágenes-->
+            <div class="alineacion_galeria_de_imagenes">
+                <img src="../IMAGENES/YOCA-FOTO1.jpg"> 
+                <img src="../IMAGENES/YOGA-FOTO2.jpg">
+                <img src="../IMAGENES/CASA-FOTO 3.jpg">
+                <img src="../IMAGENES/CABALLO-FOTO4.jpg">
+                <img src="../IMAGENES/CASA-FOTO5.jpg">
+            </div>
+        </section>
+        
+        <section>
+        <!--mi bloque arriba quienes somos con texto-->
+            <div class="forma_seccion">
+                <h2> ¿Quienes Somos? </h2>
+                    <p>
+                        Free soul house es un espacio creado para perderte en un entorno rodaeado de naturaleza, en donde te encontrarás a ti mismo permitiéndote el descanso de la vida cotidiana a través de retiros y eventos de diferente tipo cuyo objetivo principal es el crecimiento personal y la vuelta a la esencia, al origen, al hogar.
+                        <br>
+                        <br>
+                        Somos igualmente una fundación que se encarga de dar alojamiento a animales en estado de indefensión permitiéndoles recuperar su estado natural y ubicándolos en hogares definitivos.
+                    </p>
+            </div>
+        
+        <!--mi bloque abajo equipo con texto y con imagen-->
+            <div class="forma_seccion">
+                <h2> Equipo </h2>
+                    <p>
+                        Somos un grupo multidisciplinar de mujeres que nos encargamos de que tu estancia supere tus expectativas, tenemos dentro de nuestro equipo, chef y personal de cocina, instructores de yoga y terapistas en diversas ramas, y personal encargado de limpieza y mantenimiento general.
+                    </p>
+        <!--Imágen equipo-->
+        <img class="imagen_equipo" src="../IMAGENES/EQUIPO.jpg">
+            </div>
+        </section>
     </main>
+
     <footer>
-<ul>
-    <li>Politicas Legales</li>
-    <li>Ubicación: Barcelona - España</li>
-</ul>
+        <section class="footer">
+            <ul>
+                <li> Políticas Legales</li>
+                <li>Ubicación: Barcelona - España</li>
+            </ul>
+                </section>
     </footer>
 </body>
 </html>

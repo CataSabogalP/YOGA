@@ -5,44 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retiros y eventos</title>
+    <!--link al css-->
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css" />
 </head>
 <body>
+    <!--header-->
     <header>
-        <nav>
-        <h1><strong>Free Soul House</strong></h1>
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./PÁGINAS/Quienes-somos.html">Quienes somos</a></li>
-        <li><a href="./PÁGINAS/Retiros-y-eventos.html">Retiros y eventos</a></li>
-        <li><a href="./PÁGINAS/Gastronomía-y-acomodación.html">Oferta Gastrónomica y Acomodación</a></li>
-        <li><a href="./PÁGINAS/contacto.html">Contacto</a></li>
-    </ul>
+<!--menu-->
+<nav>
+        <h1 id="textoprincipal">
+        FREE SOUL HOUSE
+        </h1>
+        <ul>
+        <li><a class="listanavegación" href="../index.html">Home</a></li>
+        <li>
+            <a class="listanavegación" href="./Quienes-somos.html">Quienes somos</a>
+        </li>
+        <li>
+            <a class="listanavegación" href="./Retiros-y-eventos.html">Retiros y eventos</a>
+        </li>
+        <li>
+            <a class="listanavegación" href="./Gastronomía-y-acomodación.html">Oferta Gastrónomica y Acomodación</a>
+        </li>
+        <li>
+            <a class="listanavegación" href="./contacto.html">Contacto</a>
+        </li>
+        </ul>
     </nav>
     </header>
     <main>
-        <div>
-            <!--Galería de Imágenes-->
-        </div>
-        <div>
-            <h2><strong>Retiros</strong></h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laborum saepe hic similique, veritatis, magnam mollitia, unde aliquid eos inventore nisi vitae. Quos vero dolores, quibusdam laboriosam perspiciatis accusantium modi!
-            </p>
-            <!--Galería de imágenes-->
-        </div>
-        <div>
-            <h2><strong>Eventos</strong></h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla repudiandae corrupti quibusdam vitae, tempora perferendis ad sint doloremque dolorem. Vel corrupti reprehenderit necessitatibus aut ut rem optio repellendus facere veniam.
-            </p>
-            <!--Galería de Eventos-->
-        </div>
+        <section class="forma_galeria_fija">
+            <!--mi bloque fijo donde va la galería de imágenes-->
+                <div class="alineacion_galeria_de_imagenes">
+                    <img src="../IMAGENES/YOCA-FOTO1.jpg"> 
+                    <img src="../IMAGENES/YOGA-FOTO2.jpg">
+                    <img src="../IMAGENES/CASA-FOTO 3.jpg">
+                    <img src="../IMAGENES/CABALLO-FOTO4.jpg">
+                    <img src="../IMAGENES/CASA-FOTO5.jpg">
+                </div>
+            </section>
+
+            <section>
+                <!--mi bloque arriba retiros-->
+                    <div class="forma_seccion">
+                        <h2>Retiros</h2>
+                            <p>
+                            En nuestro espacio se llevan a cabo retiros de silencio, espirituales, yoga, mindfullnes, alimentación, tantra etc. Si estás buscando desconectar del mundo y conectar conitgo unos días, estás en el lugar indicado, o, si eres quien organiza el retiro y buscas un espacio para llevarlo a cabo, contacta con nosotros.
+                            </p>
+                <!--Galería de imágenes-->
+                    </div>
+
+                <!--mi bloque abajo eventos-->
+                <div class="forma_seccion">
+                    <h2>Eventos</h2>
+                        <p>
+                            Nuestro espacio de acuerdo a disponibilidad, puede ser el escenario perfecto para que lleves a cabo la fiesta de tu boda, primera comunión, bautizo, cumpleaños.. o, conferencias o congresos que incluyan acomodación.
+                        </p>
+                <!--Galería de Eventos-->
+                </div>
+            </section>
     </main>
     <footer>
-        <ul>
-            <li>Políticas Legales</li>
-            <li>Ubicación: Barcelona - España</li>
-        </ul>
+        <section class="footer">
+            <ul>
+                <li> Políticas Legales</li>
+                <li>Ubicación: Barcelona - España</li>
+            </ul>
+                </section>
     </footer>
 </body>
 </html>

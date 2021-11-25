@@ -5,27 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <!--link al css-->
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css" />
 </head>
 <body>
+    <!--header-->
     <header>
-        <nav>
-            <h1> 
-                <strong>Free Soul House</strong>
-            </h1>    
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./PÁGINAS/Quienes-somos.html">Quienes somos</a></li>
-                    <li><a href="./PÁGINAS/Retiros-y-eventos.html">Retiros y eventos</a></li>
-                    <li><a href="./PÁGINAS/Gastronomía-y-acomodación.html">Oferta Gastrónomica y Acomodación</a></li>
-                    <li><a href="./PÁGINAS/contacto.html">Contacto</a></li>
-                </ul>
-        </nav>
+<!--menu-->
+<nav>
+        <h1 id="textoprincipal">
+        FREE SOUL HOUSE
+        </h1>
+        <ul>
+        <li><a class="listanavegación" href="../index.html">Home</a></li>
+        <li>
+            <a class="listanavegación" href="./Quienes-somos.html">Quienes somos</a>
+        </li>
+        <li>
+            <a class="listanavegación" href="./Retiros-y-eventos.html">Retiros y eventos</a>
+        </li>
+        <li>
+            <a class="listanavegación" href="./Gastronomía-y-acomodación.html">Oferta Gastrónomica y Acomodación</a>
+        </li>
+        <li>
+            <a class="listanavegación" href="./contacto.html">Contacto</a>
+        </li>
+        </ul>
+    </nav>
     </header>
     <main>
-        <div>
-            <!--Galeria de Imágenes-->
-        </div>
-                <form action="">
+        <section class="forma_galeria_fija">
+            <!--mi bloque fijo donde va la galería de imágenes-->
+                <div class="alineacion_galeria_de_imagenes">
+                    <img src="../IMAGENES/YOCA-FOTO1.jpg"> 
+                    <img src="../IMAGENES/YOGA-FOTO2.jpg">
+                    <img src="../IMAGENES/CASA-FOTO 3.jpg">
+                    <img src="../IMAGENES/CABALLO-FOTO4.jpg">
+                    <img src="../IMAGENES/CASA-FOTO5.jpg">
+                </div>
+            </section>
+
+            <!--mi bloque formulario-->
+                    
+                <form action class="'"></form>
                     <h2>Contáctamos</h2>
                     <link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
                     <p>Estaremos encantados de comunicarnos contigo</p>
@@ -38,19 +60,21 @@
                     <br>
                     <label for="teléfono">Teléfono:</label>
                     <input type="text" value="" placeholder="Agrega tu télefono">
-                                
                 </form>
                 <form action=""></form>
                 <span>Aceptas términos y condiciones</span>
                 <input type="checkbox" name="aceptar" value="1">
                 <br>
-                <input type="submit" value="Enviar">            
+                <input type="submit" value="Enviar">   
+        
         </main>
     <footer>
-        <ul>
-            <li>Políticas Legales</li>
-            <li>Ubicación: Barcelona - España</li>
-        </ul>
+        <section class="footer">
+            <ul>
+                <li> Políticas Legales</li>
+                <li>Ubicación: Barcelona - España</li>
+            </ul>
+                </section>
     </footer>
 </body>
 </html>

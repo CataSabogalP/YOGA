@@ -5,41 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oferta Gastrnómica y Acomodación</title>
+    <!--link al css-->
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css" />
 </head>
 <body>
-    <header>
+<!--header-->
+<header>
+    <!--menu-->
     <nav>
-        <h1><strong>Free Soul House</strong></h1>
-        <ul>
-            <li><a href="../index.html">Home</a></li><!--revisar no me funciona-->
-            <li><a href="./PÁGINAS/Quienes-somos.html">Quienes somos</a></li>
-            <li><a href="./PÁGINAS/Retiros-y-eventos.html">Retiros y eventos</a></li>
-            <li><a href="./PÁGINAS/Gastronomía-y-acomodación.html">Oferta Gastrónomica y Acomodación</a></li>
-            <li><a href="./PÁGINAS/contacto.html">Contacto</a></li>
-        </ul>
+            <h1 id="textoprincipal">
+            FREE SOUL HOUSE
+            </h1>
+            <ul>
+            <li><a class="listanavegación" href="../index.html">Home</a></li>
+            <li>
+                <a class="listanavegación" href="./Quienes-somos.html">Quienes somos</a
+                >
+            </li>
+            <li>
+                <a class="listanavegación" href="./Retiros-y-eventos.html">Retiros y eventos</a>
+            </li>
+            <li>
+                <a class="listanavegación" href="./Gastronomía-y-acomodación.html">Oferta Gastrónomica y Acomodación</a>
+            </li>
+            <li>
+                <a class="listanavegación" href="./contacto.html">Contacto</a>
+            </li>
+            </ul>
     </nav>
-    </header>
+</header>
     <main>
-    <div>
-        <h1><strong>Oferta Gastronómica</strong></h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aut quasi sit pariatur, laudantium sequi voluptatum eaque repellendus expedita, similique consequuntur, dignissimos corrupti quam aliquid voluptatem harum quae ab. Dolore.
-        </p>
+        <section class="forma_galeria_fija">
+            <!--mi bloque fijo donde va la galería de imágenes-->
+                <div class="alineacion_galeria_de_imagenes">
+                    <img src="../IMAGENES/YOCA-FOTO1.jpg"> 
+                    <img src="../IMAGENES/YOGA-FOTO2.jpg">
+                    <img src="../IMAGENES/CASA-FOTO 3.jpg">
+                    <img src="../IMAGENES/CABALLO-FOTO4.jpg">
+                    <img src="../IMAGENES/CASA-FOTO5.jpg">
+                </div>
+            </section>
+
+    <section>
+        <!--mi bloque arriba oferta gastronómica imagenes y texto-->
+        <div class="forma_seccion">
+            <h2>Oferta Gastronómica</h2>
+                <p> 
+                    Comida preparada con amor e intensión no sólo de nutrir tu cuerpo sino también tu alma, preparada con ingredientes de la huerta y mercado local. Dieta adaptada a los grupos, principalmente vegetariana. 
+                </p>
         <!--Galería de Imágenes-->
-    </div>
-    <div>
-        <h1><strong>Acomodación</strong></h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odio sint corporis nobis et. Earum similique magni quia pariatur temporibus. Deserunt, itaque molestias. Blanditiis a, quod harum veritatis porro id?
-        </p>
+        </div>
+
+        <!--mi bloque arriba acomodación imagenes y texto-->
+        <div class="forma_seccion">
+            <h2>Acomodación</h2>
+                <p>
+                    Contamos con habitaciones confortables de tipo, individual una persona, individual para pareja, o grupos de hasta 5 personas.
+                </p>
         <!--Galeria de imágenes-->
-    </div>
+        </div>
+    </section>
     </main>
     <footer>
-        <ul>
-            <li>Politicas Legales</li>
-            <li>Ubicación: Barcelona - España</li>
-        </ul>
+        <section class="footer">
+            <ul>
+                <li> Políticas Legales</li>
+                <li>Ubicación: Barcelona - España</li>
+            </ul>
+                </section>
     </footer>
 </body>
 </html>
