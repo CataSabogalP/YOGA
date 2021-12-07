@@ -4,25 +4,30 @@ header {
     background-color: #D3C0A2;
     top             : 0;
     left            : 0;
+    bottom: auto;
     position        : fixed;
 }
 
 nav {
     display        : flex;
-    flex-direction : column;
+    flex-direction: column;
     justify-content: center;
     align-items    : center;
-}
+    }
 
 nav ul {
     display        : flex;
     justify-content: space-evenly;
     width: 100%;
+    }
+
+nav ul li a:hover {
+    color: white
 }
 
 nav ul li {
     display        : flex;
-    list-style-type: none;
+    list-style-type: none
 }
 
 nav ul li a{
@@ -33,7 +38,7 @@ body {
     margin     : 0;
     padding    : 0;
     font-family: Sansation light, sans-serif;
-}
+    }
 
 /*SECTION FORMA*/
 .forma {
@@ -52,7 +57,7 @@ body {
 
 .forma section {
     display: flex;
-}
+    }
 
 .alineacionvideo {
     display        : flex;
@@ -73,18 +78,29 @@ h2,
 p {
     color      : #D3C0A2;
     font-family: sensation, sans-serif;
+    font-size: 25px;
     height     : 20vh;
     width      : 50vw;
     text-align : center;
 }
 
+.definicion {
+    color      : #D3C0A2;
+    font-family: sensation, sans-serif;
+    font-size: 17px;
+    height     : 20vh;
+    width      : 50vw;
+    text-align:left;
+}
 .alineacionimagen {
     display       : flex;
     flex-direction: column;
-    width         : 30%;
+    width         : 42%;
     align-items   : center;
     padding       : 50px 0px;
     justify-content: space-between;
+    display: grid;
+    grid-auto-flow: raw;
 }
 
 .alineacionimagen img {
@@ -123,7 +139,7 @@ footer {
     margin-inline-end: 20px;
     margin-inline-start: 20px;
     padding: 40px;
-    border: 40px;
+    border: 30px;
 }
 
 .alineacion_galeria_de_imagenes img {
@@ -149,3 +165,62 @@ background-size: cover;
     height: 200px;
 }
 
+.imagen_retiro_evento {
+    display: inline;
+    width: 300px;
+    height: 200px;
+}
+
+.imagen_gastro {
+    display: inline;
+    width: 200px;
+    height: 200px;
+}
+
+.imagen_acomodacion {
+    display: inline;
+    width: 400px;
+    height: 200px;
+}
+
+/* Sección formulario*/
+
+.contenedor_formulario {
+    background-color: black;
+    margin-top: 70px;
+    margin-inline-end: 300px;
+    margin-inline-start: 300px;
+    margin-bottom: 100px;
+    padding: 60px;
+    border: 100px;
+}
+
+.contenedor__formulario {
+    font-family: Sansation light, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: grid;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.contenedor___formulario {
+    font-family: Sansation light, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: inline;
+    margin-top: 10px;
+}
+
+.enviar {
+    font-family: Sansation light, sans-serif;
+    font-size: 20px;
+    color: black;
+    display: grid;
+    grid-row-end: auto;
+    margin-left: 600px;
+    margin-right: 500px;
+}
+
+
+    
